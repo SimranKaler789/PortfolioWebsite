@@ -7,9 +7,10 @@
 }
 .sidebar{
     background-color: rgb(19, 17, 20);
-    color: aliceblue;
+    color: rgb(195, 212, 226);
     font-family: 'Gideon Roman', cursive;
     width:18vw;
+   
 }
 .sidebar nav{
     padding: 45px;
@@ -27,7 +28,8 @@
 .main{
     background-color:#42362C;
     width:90vw;
-    height:100vh;
+  
+    height: 100vh;
 }
 .container{
    display: flex;
@@ -81,7 +83,7 @@
     margin-top: 34px;
     padding: 8px 22px;
     border-radius:22px;
-   
+    text-decoration: none;
     font-weight:bold;
     font-size:21px;
     margin: 0 3px;
@@ -90,7 +92,8 @@
 
 .buttons button:hover{
    background-color: black;
-  color: white;
+   color: white;
+
 }
 
 .both{
@@ -131,29 +134,52 @@ img{
     padding: 10px;
      
 }
-.skills{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 20px;
 
-}
 
 .skills2{
     display: flex;
     justify-content: space-around;
+    text-align: right;
+    font-size: 36px;
     text-align: center;
+    padding-top: 4px;
+    padding-left: 266px;
+
+}
+
+.sk2 ul{
     font-size: 20px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-left: 87px;
+   
+
 
 }
-
-.sk1{
+.sk2 ul li {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 10px;
     
-
+  
 
 }
-.sk2{
+.p1{
+    padding-left: 30px;
+  
 
+}
+ project1 ul li{
+     padding:2px;
+ }
+ project2 ul li{
+    padding:2px;
+}
+project3 ul li{
+    padding:2px;
+}
+project4 ul li{
+    padding:2px;
 }
 
 
